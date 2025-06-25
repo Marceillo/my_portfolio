@@ -6,4 +6,4 @@ def home(request):
     """
     Render the home page of the portfolio.
     """
-    return render(request, 'portfolio/home.html')
+    return render(request, 'portfolio/index.html')
